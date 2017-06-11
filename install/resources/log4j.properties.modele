@@ -1,0 +1,19 @@
+# ----------------------------------------------------------#
+# --- Emplacement des fichiers de logs en sortie -----------#
+# ----------------------------------------------------------#
+
+log.batch=${LOG_FILE}
+
+# --------------------------------------#
+# --- Definition des loggers -----------#
+# --------------------------------------#
+
+log4j.rootLogger=ERROR, console
+
+# ----------------------------------------#
+# --- Definition des Appenders -----------#
+# ----------------------------------------#
+
+log4j.appender.console=org.apache.log4j.ConsoleAppender
+log4j.appender.console.layout=org.apache.log4j.EnhancedPatternLayout
+log4j.appender.console.layout.ConversionPattern=%5p [%t] (%c{1.}) %M %m%n

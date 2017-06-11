@@ -1,0 +1,10 @@
+# Emplacement des fichiers centre de santé (cs) à parser
+file.path.cs=/app/${USER}/FPMT/resources/cs_eligibles
+
+# Emplacement des fichiers personnelle de santé (ps) à parser
+file.path.ps=/app/${USER}/FPMT/resources/ps_eligibles
+
+# Emplacement des fichiers indicateurs patientèle à parser
+file.path.indicateurs=/app/${USER}/FPMT/resources/indicateurs_mtf
+
+# Emplacement du fichier de sortie
